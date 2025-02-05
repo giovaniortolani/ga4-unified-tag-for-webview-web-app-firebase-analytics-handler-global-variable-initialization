@@ -152,14 +152,9 @@ ___TEMPLATE_PARAMETERS___
     "type": "GROUP",
     "name": "documentationGroup",
     "displayName": "Documentation",
-    "groupStyle": "ZIPPY_CLOSED",
-    "subParams": [
-      {
-        "type": "LABEL",
-        "name": "documentation",
-        "displayName": "README: \u003ca href\u003d\"https://github.com/giovaniortolani/gtm-firebase-webview-integration\"\u003eGitHub Repository\u003c/a\u003e"
-      }
-    ]
+    "groupStyle": "NO_ZIPPY",
+    "subParams": [],
+    "help": "README: \u003ca href\u003d\"https://github.com/giovaniortolani/gtm-firebase-webview-integration\"\u003eGitHub Repository\u003c/a\u003e"
   }
 ]
 
@@ -999,6 +994,6 @@ scenarios: []
 
 ___NOTES___
 
-Created on 2/5/2025, 11:49:28 AM
+Created on 2/5/2025, 12:03:50 PM
 
 
