@@ -38,7 +38,7 @@ This template has been submitted to the Google Tag Manager Template Gallery. Onc
 Follow the instructions outline [here](https://github.com/giovaniortolani/ga4-unified-tag-for-webview-web-app-commands-tag).
 
 ### 3. Tag Configuration
-It must be added before GTM starts sending events to Firebase (if adding via the GTM template, use the Initialization trigger; if adding via the source code, ensure that this code runs early on the page, ideally before GTM loads).
+If adding via the **GTM template**, use the *Initialization trigger*; if adding via the **source code**, ensure that this code runs early on the page, ideally before GTM loads.
 
 Check the section ["Examples"](#examples) above. 
 
