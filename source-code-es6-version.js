@@ -27,6 +27,8 @@
       - Java: https://github.com/FirebaseExtended/analytics-webview/blob/master/android/app/src/main/java/com/google/firebase/quickstart/analytics/webview/MainActivity.java#L52-L53
       
       This global object is defined as 'AnalyticsWebInterface' in the documentation linked above. Make sure to use the same name in both places (in the native code and in this template).
+
+      More details of an actual implementation for a native Android interface: [Interface definition](https://github.com/giovaniortolani/ga4-unified-tag-for-webview-web-app-example-app/blob/master/app/src/main/java/mgks/os/swv/AnalyticsAndroidWebInterface.java) and [Interface injection to the DOM](https://github.com/giovaniortolani/ga4-unified-tag-for-webview-web-app-example-app/blob/master/app/src/main/java/mgks/os/swv/MainActivity.java#L343-L347).
       
       Reference: "Implement native interface" section
       https://firebase.google.com/docs/analytics/webview?platform=android#implement_native_interface
@@ -57,6 +59,8 @@
       
       Make sure to use the same name in both places (in the native code and in this template).
       
+      More details of an actual implementation for a common interface: [Interface definition](https://github.com/giovaniortolani/ga4-unified-tag-for-webview-web-app-example-app/blob/master/app/src/main/java/mgks/os/swv/WebviewInterface.java) and [Interface injection to the DOM](https://github.com/giovaniortolani/ga4-unified-tag-for-webview-web-app-example-app/blob/master/app/src/main/java/mgks/os/swv/MainActivity.java#L349-L352).
+
       Reference: "Implement native interface" section
       - iOS: https://firebase.google.com/docs/analytics/webview?platform=ios#implement_native_interface
       - Android: https://firebase.google.com/docs/analytics/webview?platform=android#implement_native_interface
