@@ -75,7 +75,7 @@ ___TEMPLATE_PARAMETERS___
         "displayName": "Firebase Analytics Interface Name (Android)",
         "simpleValueType": true,
         "defaultValue": "AnalyticsWebInterface",
-        "help": "The name of the global object that contains the native interface to Firebase Analytics for Android.\n\u003cbr\u003e\n\u003cbr\u003e\nDefault: \u003ci\u003eAnalyticsWebInterface\u003c/i\u003e\n\u003cbr\u003e\n\u003cbr\u003e\nUse the same name as defined on the 2nd argument when adding the Javascript interface:\n\u003cul\u003e\n\u003cli\u003e\u003ca href\u003d\"https://github.com/FirebaseExtended/analytics-webview/blob/master/android/app/src/main/java/com/google/firebase/quickstart/analytics/webview/MainActivity.java#L52-L53\"\u003eJava\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cbr\u003e\nThis global object is defined as \u003ci\u003eAnalyticsWebInterface\u003c/i\u003e in the documentation linked above. Make sure to use the same name in both places (in the native code and in this template).\n\u003cbr\u003e\n\u003cbr\u003e\nIf you change this value, you must also change the \"Accesses global variables\" permissions on the Template Editor.",
+        "help": "The name of the global object that contains the native interface to Firebase Analytics for Android.\n\u003cbr\u003e\n\u003cbr\u003e\nDefault: \u003ci\u003eAnalyticsWebInterface\u003c/i\u003e\n\u003cbr\u003e\n\u003cbr\u003e\nUse the same name as defined on the 2nd argument when adding the Javascript interface:\n\u003cul\u003e\n\u003cli\u003e\u003ca href\u003d\"https://github.com/FirebaseExtended/analytics-webview/blob/master/android/app/src/main/java/com/google/firebase/quickstart/analytics/webview/MainActivity.java#L52-L53\"\u003eJava\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cbr\u003e\nThis global object is defined as \u003ci\u003eAnalyticsWebInterface\u003c/i\u003e in the documentation linked above. Make sure to use the same name in both places (in the native code and in this template).\n\u003cbr\u003e\n\u003cbr\u003e\nMore details of an actual implementation for a native Android interface: \u003ca href\u003d\"https://github.com/giovaniortolani/ga4-unified-tag-for-webview-web-app-example-app/blob/master/app/src/main/java/mgks/os/swv/AnalyticsAndroidWebInterface.java\"\u003eInterface definition\u003c/a\u003e and \u003ca href\u003d\"https://github.com/giovaniortolani/ga4-unified-tag-for-webview-web-app-example-app/blob/master/app/src/main/java/mgks/os/swv/MainActivity.java#L343-L347\"\u003eInterface injection to the DOM\u003c/a\u003e.\n\u003cbr\u003e\n\u003cbr\u003e\nIf you change this value, you must also change the \"Accesses global variables\" permissions on the Template Editor.",
         "enablingConditions": [
           {
             "paramName": "crossPlatformOption",
@@ -128,7 +128,7 @@ ___TEMPLATE_PARAMETERS___
             "type": "NON_EMPTY"
           }
         ],
-        "help": "The name of the global method that contains the native interface to Firebase Analytics for both Android and iOS.\n\u003cbr\u003e\n\u003cbr\u003e\nExample: \u003ci\u003eWebviewInterface.postMessage\u003c/i\u003e\n\u003cbr\u003e\n\u003cbr\u003e\nSome implementation examples:\n\u003cul\u003e\n\u003cli\u003e\u003ca href\u003d\"https://github.com/react-native-webview/react-native-webview/blob/master/docs/Guide.md#the-windowreactnativewebviewpostmessage-method-and-onmessage-prop\"\u003eReact Native\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"https://stackoverflow.com/a/64429209/4043937\"\u003eFlutter\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cbr\u003e\nMake sure to use the same name in both places (in the native code and in this template).\n\u003cbr\u003e\n\u003cbr\u003e\nIf you change this value, you must also change the \"Accesses global variables\" permissions on the Template Editor.",
+        "help": "The name of the global method that contains the native interface to Firebase Analytics for both Android and iOS.\n\u003cbr\u003e\n\u003cbr\u003e\nExample: \u003ci\u003eWebviewInterface.postMessage\u003c/i\u003e\n\u003cbr\u003e\n\u003cbr\u003e\nSome implementation examples:\n\u003cul\u003e\n\u003cli\u003e\u003ca href\u003d\"https://github.com/react-native-webview/react-native-webview/blob/master/docs/Guide.md#the-windowreactnativewebviewpostmessage-method-and-onmessage-prop\"\u003eReact Native\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"https://stackoverflow.com/a/64429209/4043937\"\u003eFlutter\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cbr\u003e\nMake sure to use the same name in both places (in the native code and in this template).\n\u003cbr\u003e\n\u003cbr\u003e\nMore details of an actual implementation for a common interface: \u003ca href\u003d\"https://github.com/giovaniortolani/ga4-unified-tag-for-webview-web-app-example-app/blob/master/app/src/main/java/mgks/os/swv/WebviewInterface.java\"\u003eInterface definition\u003c/a\u003e and \u003ca href\u003d\"https://github.com/giovaniortolani/ga4-unified-tag-for-webview-web-app-example-app/blob/master/app/src/main/java/mgks/os/swv/MainActivity.java#L349-L352\"\u003eInterface injection to the DOM\u003c/a\u003e.\n\u003cbr\u003e\n\u003cbr\u003e\nIf you change this value, you must also change the \"Accesses global variables\" permissions on the Template Editor.",
         "valueHint": "WebviewInterface.postMessage"
       }
     ]
@@ -154,7 +154,7 @@ ___TEMPLATE_PARAMETERS___
     "displayName": "Documentation",
     "groupStyle": "NO_ZIPPY",
     "subParams": [],
-    "help": "README: \u003ca href\u003d\"https://github.com/giovaniortolani/gtm-firebase-webview-integration\"\u003eGitHub Repository\u003c/a\u003e"
+    "help": "README: \u003ca href\u003d\"https://github.com/giovaniortolani/ga4-unified-tag-for-webview-web-app-firebase-analytics-handler-global-variable-initialization\"\u003eGitHub Repository\u003c/a\u003e"
   }
 ]
 
@@ -189,7 +189,7 @@ const log = (message, content) => {
  * Initializes the Firebase Analytics Handler global variable for native communication.
  */
 const initializeFirebaseAnalyticsHandlerGlobal = () => {
-  log('Initializing JS handler global object.');
+  log('initializeFirebaseAnalyticsHandlerGlobal', 'Initializing JS handler global object.');
 
   // Check if the Firebase Analytics Handler global variable already exists
   const firebaseAnalyticsHandlerName = data.firebaseAnalyticsHandlerName || 'firebaseAnalyticsHandler';
@@ -332,7 +332,7 @@ const initializeFirebaseAnalyticsHandlerGlobal = () => {
     
     log('JS Handler global object not detected. Initialized global object:', firebaseAnalyticsHandlerName);
     // Set the Firebase Analytics Handler in the global scope
-    setInWindow(firebaseAnalyticsHandler, firebaseAnalyticsHandler, true);
+    setInWindow(firebaseAnalyticsHandlerName, firebaseAnalyticsHandler, true);
   }
 };
 
@@ -994,6 +994,6 @@ scenarios: []
 
 ___NOTES___
 
-Created on 2/5/2025, 12:03:50 PM
+Created on 2/6/2025, 12:07:12 PM
 
 
