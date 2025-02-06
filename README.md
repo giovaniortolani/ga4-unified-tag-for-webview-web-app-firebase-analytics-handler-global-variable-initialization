@@ -22,6 +22,8 @@ This tag template won't be for everyone. This template is geared more toward GTM
 3. Click **New** > **Import**.
 4. Select the template file and save it.
 
+This template has been submitted to the Google Tag Manager Template Gallery. Once it's approved, you don't need to manually import it anymore. Just search it via the GTM UI.
+
 ### 2. Import the **GA4 Unified Tag for Webview (Web & App) | Commands Tag** template into GTM
 [TO DO]
 https://github.com/giovaniortolani/ga4-unified-tag-for-webview-web-app-commands-tag
