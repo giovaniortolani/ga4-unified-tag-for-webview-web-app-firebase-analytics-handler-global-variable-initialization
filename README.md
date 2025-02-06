@@ -18,12 +18,12 @@ This tag template won't be for everyone. This template is geared more toward GTM
 - Using **different** interfaces for Android and iOS
   ![image](https://github.com/user-attachments/assets/d95c1fe9-b9b5-4c49-8ea6-3da1b37f0d90)
   The `firebaseAnalyticsHandler` is the Javascript Handler.
-  For Android, the Native interface can be found in the `AnalyticsWebInterface` global variable, whereas the iOS can be found in the `firebase` property inside the `webkit.messageHandlers` global variable.
+  For Android, the native interface can be found in the `AnalyticsWebInterface` global variable, whereas the iOS can be found in the `firebase` property inside the `webkit.messageHandlers` global variable.
 
 - Using the **same** interface for Android and iOS.
   ![image](https://github.com/user-attachments/assets/26c1f510-4be0-4945-a680-f856690b6616)
   The `firebaseAnalyticsHandler` is the Javascript Handler.
-  For Android and iOS, the common Native interface can be found in the `WebInterface.postMessage`.
+  For Android and iOS, the common native interface can be found in the `WebInterface.postMessage`.
 
 ## Installation & Setup
 ### 1. Import the Template into GTM
@@ -42,7 +42,7 @@ If adding via the **GTM template**, use the *Initialization trigger*; if adding 
 
 Check the section ["Examples"](#examples) above. 
 
-If you happen to modify any of the Javascript Handler and Native Interfaces names in the template, you must also change the "Accesses global variables" permissions on the Template Editor.
+If you happen to modify any of the Javascript Handler and native Interfaces names in the template, you must also change the "Accesses global variables" permissions on the Template Editor.
 
 ## Author(s)
 [Giovani Ortolani Barbosa](https://www.linkedin.com/in/giovani-ortolani-barbosa/)
