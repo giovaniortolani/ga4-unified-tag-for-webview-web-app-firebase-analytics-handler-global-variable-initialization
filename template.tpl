@@ -14,6 +14,12 @@ ___INFO___
   "version": 1,
   "securityGroups": [],
   "displayName": "GA4 Unified Tag for Webview (Web \u0026 App) | Firebase Analytics Handler Global Variable Initialization",
+  "categories": [
+    "ANALYTICS",
+    "ADVERTISING",
+    "MARKETING",
+    "UTILITY"
+  ],
   "brand": {
     "id": "brand_dummy",
     "displayName": "Giovani Ortolani Barbosa",
