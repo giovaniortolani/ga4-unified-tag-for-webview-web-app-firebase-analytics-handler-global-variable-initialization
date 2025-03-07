@@ -1,5 +1,5 @@
 homepage: "https://www.linkedin.com/in/giovani-ortolani-barbosa/"
 documentation: "https://github.com/giovaniortolani/ga4-unified-tag-for-webview-web-app-firebase-analytics-handler-global-variable-initialization"
 versions:
-  - sha: 539c6619a81c7c78c56751aa36ba2e1824d662d9
+  - sha: 326e296e3b9760b87f0c0edece1a85cdee99313c
     changeNotes: Initial release.
